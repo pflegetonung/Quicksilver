@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainScreenView: View {
+    @State private var showTextField = false
+    @State private var textInput = ""
+    
     var body: some View {
         ZStack {
             VStack {
